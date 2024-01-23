@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+*.sqlite3
+db.sqlite3
+
+# Virtual environment
+venv/
+venv37/
+__venv__/
+env/
+ENV/
+
+# Logs
+*.log
+
+# Ignore Django migration files
+**/migrations/
+
+# Ignore local settings
+local_settings.py
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python specific files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook files
+.ipynb_checkpoints/
+
+# IntelliJ IDEA files
+.idea/
+
+# Ignore .iml files and .idea/workspace.xml
+*.iml
+.idea/workspace.xml
